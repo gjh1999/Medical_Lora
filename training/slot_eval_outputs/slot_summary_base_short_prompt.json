@@ -1,0 +1,177 @@
+{
+  "label": "Base (short prompt)",
+  "total": 131,
+  "parse_ok": 128,
+  "json_valid_rate": 0.9770992366412213,
+  "slot_detection": {
+    "per_leaf": {
+      "record.blood_pressure": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 16,
+        "tn": 112,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "record.blood_glucose": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 14,
+        "tn": 114,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "record.weight": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 8,
+        "tn": 120,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "record.diet": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 9,
+        "tn": 119,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "record.exercise": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 4,
+        "tn": 124,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "record.medication": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 7,
+        "tn": 121,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "record.symptom": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 16,
+        "tn": 112,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "advice.advice": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 57,
+        "tn": 71,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "plan.plan": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 20,
+        "tn": 108,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "reminder.reminder": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 29,
+        "tn": 99,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "history.history": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 33,
+        "tn": 95,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      }
+    },
+    "macro_f1": 0.0,
+    "micro_precision": 0.0,
+    "micro_recall": 0.0,
+    "micro_f1": 0.0
+  },
+  "slot_value": {
+    "present_slots_matched": 0,
+    "key_recall": 1.0,
+    "key_precision": 1.0,
+    "key_f1": 1.0,
+    "value_accuracy": 1.0
+  },
+  "routing": {
+    "routing_exact": 15,
+    "routing_exact_rate": 0.1171875,
+    "macro_f1": 0.0,
+    "flags": [
+      {
+        "flag": "need_record",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 63,
+        "tn": 65
+      },
+      {
+        "flag": "need_advice",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 57,
+        "tn": 71
+      },
+      {
+        "flag": "need_plan",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 20,
+        "tn": 108
+      },
+      {
+        "flag": "need_reminder",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 29,
+        "tn": 99
+      },
+      {
+        "flag": "need_history",
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 0,
+        "fn": 33,
+        "tn": 95
+      }
+    ]
+  }
+}

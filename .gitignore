@@ -1,0 +1,23 @@
+# Local environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.tmp/
+
+# Local IDE and agent settings
+.idea/
+.claude/
+__MACOSX/
+
+# Intermediate training checkpoints
+qwen_medical_lora/checkpoint-*/
+training/qwen_routing_lora/checkpoint-*/
+
+# Large reproducible source/generated datasets
+cmedqa_train_sft.json
+cmedqa_train_sft.jsonl
+cMedQA/answers.csv/answers.csv
+cMedQA/questions.csv/questions.csv
+cMedQA/train_candidates.txt/train_candidates.txt
+medquad.csv

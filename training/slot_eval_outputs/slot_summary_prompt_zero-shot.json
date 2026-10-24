@@ -1,0 +1,177 @@
+{
+  "total": 131,
+  "parse_ok": 131,
+  "json_valid_rate": 1.0,
+  "slot_detection": {
+    "per_leaf": {
+      "record.blood_pressure": {
+        "tp": 12,
+        "fp": 0,
+        "fn": 4,
+        "tn": 115,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571
+      },
+      "record.blood_glucose": {
+        "tp": 5,
+        "fp": 1,
+        "fn": 9,
+        "tn": 116,
+        "precision": 0.8333333333333334,
+        "recall": 0.35714285714285715,
+        "f1": 0.5
+      },
+      "record.weight": {
+        "tp": 6,
+        "fp": 1,
+        "fn": 2,
+        "tn": 122,
+        "precision": 0.8571428571428571,
+        "recall": 0.75,
+        "f1": 0.7999999999999999
+      },
+      "record.diet": {
+        "tp": 7,
+        "fp": 2,
+        "fn": 2,
+        "tn": 120,
+        "precision": 0.7777777777777778,
+        "recall": 0.7777777777777778,
+        "f1": 0.7777777777777778
+      },
+      "record.exercise": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 4,
+        "tn": 126,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "record.medication": {
+        "tp": 5,
+        "fp": 1,
+        "fn": 3,
+        "tn": 122,
+        "precision": 0.8333333333333334,
+        "recall": 0.625,
+        "f1": 0.7142857142857143
+      },
+      "record.symptom": {
+        "tp": 7,
+        "fp": 1,
+        "fn": 9,
+        "tn": 114,
+        "precision": 0.875,
+        "recall": 0.4375,
+        "f1": 0.5833333333333334
+      },
+      "advice.advice": {
+        "tp": 34,
+        "fp": 13,
+        "fn": 25,
+        "tn": 59,
+        "precision": 0.723404255319149,
+        "recall": 0.576271186440678,
+        "f1": 0.6415094339622641
+      },
+      "plan.plan": {
+        "tp": 22,
+        "fp": 2,
+        "fn": 0,
+        "tn": 107,
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "f1": 0.9565217391304348
+      },
+      "reminder.reminder": {
+        "tp": 30,
+        "fp": 0,
+        "fn": 0,
+        "tn": 101,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "history.history": {
+        "tp": 25,
+        "fp": 0,
+        "fn": 9,
+        "tn": 97,
+        "precision": 1.0,
+        "recall": 0.7352941176470589,
+        "f1": 0.8474576271186441
+      }
+    },
+    "macro_f1": 0.6980025893410023,
+    "micro_precision": 0.8742857142857143,
+    "micro_recall": 0.6954545454545454,
+    "micro_f1": 0.7746835443037974
+  },
+  "slot_value": {
+    "present_slots_matched": 153,
+    "key_recall": 0.8904109589041096,
+    "key_precision": 0.9530791788856305,
+    "key_f1": 0.9206798866855525,
+    "value_accuracy": 0.21132897603485837
+  },
+  "routing": {
+    "routing_exact": 69,
+    "routing_exact_rate": 0.5267175572519084,
+    "macro_f1": 0.842210043437665,
+    "flags": [
+      {
+        "flag": "need_record",
+        "precision": 0.9210526315789473,
+        "recall": 0.546875,
+        "f1": 0.6862745098039216,
+        "tp": 35,
+        "fp": 3,
+        "fn": 29,
+        "tn": 64
+      },
+      {
+        "flag": "need_advice",
+        "precision": 0.7391304347826086,
+        "recall": 0.576271186440678,
+        "f1": 0.6476190476190476,
+        "tp": 34,
+        "fp": 12,
+        "fn": 25,
+        "tn": 60
+      },
+      {
+        "flag": "need_plan",
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "f1": 0.9565217391304348,
+        "tp": 22,
+        "fp": 2,
+        "fn": 0,
+        "tn": 107
+      },
+      {
+        "flag": "need_reminder",
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 30,
+        "fp": 0,
+        "fn": 0,
+        "tn": 101
+      },
+      {
+        "flag": "need_history",
+        "precision": 1.0,
+        "recall": 0.8529411764705882,
+        "f1": 0.9206349206349206,
+        "tp": 29,
+        "fp": 0,
+        "fn": 5,
+        "tn": 97
+      }
+    ]
+  },
+  "label": "Prompt (zero-shot)"
+}

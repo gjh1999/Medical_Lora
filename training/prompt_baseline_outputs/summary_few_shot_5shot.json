@@ -1,0 +1,75 @@
+{
+  "model": "C:\\Users\\gjh\\.cache\\modelscope\\hub\\models\\Qwen\\Qwen2___5-7B-Instruct",
+  "prompt_mode": "few_shot",
+  "shots": 5,
+  "total": 131,
+  "parse_ok": 131,
+  "json_valid_rate": 1.0,
+  "schema_ok": 131,
+  "schema_valid_rate": 1.0,
+  "routing_exact": 66,
+  "routing_exact_rate": 0.5038167938931297,
+  "slot_exact": 9,
+  "slot_exact_rate": 0.06870229007633588,
+  "multi_total": 76,
+  "multi_correct": 33,
+  "multi_exact_rate": 0.4342105263157895,
+  "macro": {
+    "precision": 0.8494216057166877,
+    "recall": 0.8893506979062812,
+    "f1": 0.8680635356407491
+  },
+  "flags": [
+    {
+      "flag": "need_record",
+      "precision": 0.819672131147541,
+      "recall": 0.78125,
+      "f1": 0.8,
+      "tp": 50,
+      "fp": 11,
+      "fn": 14,
+      "tn": 56
+    },
+    {
+      "flag": "need_advice",
+      "precision": 0.6307692307692307,
+      "recall": 0.6949152542372882,
+      "f1": 0.6612903225806452,
+      "tp": 41,
+      "fp": 24,
+      "fn": 18,
+      "tn": 48
+    },
+    {
+      "flag": "need_plan",
+      "precision": 0.88,
+      "recall": 1.0,
+      "f1": 0.9361702127659575,
+      "tp": 22,
+      "fp": 3,
+      "fn": 0,
+      "tn": 106
+    },
+    {
+      "flag": "need_reminder",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 30,
+      "fp": 0,
+      "fn": 0,
+      "tn": 101
+    },
+    {
+      "flag": "need_history",
+      "precision": 0.9166666666666666,
+      "recall": 0.9705882352941176,
+      "f1": 0.9428571428571428,
+      "tp": 33,
+      "fp": 3,
+      "fn": 1,
+      "tn": 94
+    }
+  ],
+  "parse_errors": 0
+}
